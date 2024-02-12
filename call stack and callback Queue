@@ -1,0 +1,3 @@
+Async Javascript:
+In javascript setTimeout,DOM are known as Web API's.
+When the function onClick(),setTimeOut() are called they actually called their corresponding API and do their work.In the callstack the functions like consol.log() and user defined functions are stored and they execute at first.The function like onClick() are stored in the callback Queue and execute after the callstack is finished.
