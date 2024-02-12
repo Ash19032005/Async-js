@@ -1,3 +1,27 @@
 Async Javascript:
 In javascript setTimeout,DOM are known as Web API's.
 When the function onClick(),setTimeOut() are called they actually called their corresponding API and do their work.In the callstack the functions like consol.log() and user defined functions are stored and they execute at first.The function like onClick() are stored in the callback Queue and execute after the callstack is finished.
+
+Call back:
+A callback is a function passed as an argument to another function.
+Eg.
+function A(){
+  function B()
+}
+A(B)
+
+Promises:
+A JavaScript Promise object can be:
+
+1.Pending
+2.Fulfilled
+3.Rejected
+
+"pending"-undefined
+"fulfilled"-a result value
+"rejected"-an error object
+
+promises always return the obeject
+
+then() in promises execute one by one. It executes only when the before function execution is finished
+
